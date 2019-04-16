@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    width:100%; 
+    grid-gap: 10px 20px;
+    background-color: rgb(206, 227, 248);
+    justify-items: center;
+    /* font-family:'Indie Flower', cursive; */
+    /* font-size: 26px; */
+    /* margin: 0 auto; */
+    /* grid-template-rows: 40px 40px; */
+    /* grid-auto-flow: row; */
+} 
+
+.col{
+    border:1px,round;
+    height:100px;
+    margin-top:10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align:center;
+    background-color: yellow;
+    width: 75px;
+    font-family:'Indie Flower', cursive;
+    font-size: 26px;
+}
+
+/* .row align-items-center{
+    float:right;
+    width: 30%;
+}  */
+
+/* circle code for numbers */
+#grad{
+    width:50%;
+    height:0;
+    font-size:20px;
+    color:#fff;
+    text-align:center;
+    line-height:0;
+    padding:25% 0;
+    border-radius:50%;
+    background:rgb(100, 94, 94)}
+ 
